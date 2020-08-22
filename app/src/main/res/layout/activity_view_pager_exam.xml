@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tapLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@color/colorAccent"
+        android:background="@color/cardview_dark_background"
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/viewPagerTabItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="첫번째뷰"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/viewPagerTabItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="두번째뷰"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/viewPagerTabItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세번째뷰"
+            />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragment_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/container">
+               <!-- 이 안에 프레그먼트를 정의하세요 -->
+               <!--xml에 fragment를 추가하면 동적(코드)으로 제어가 어렵다.  -->
+                <fragment
+                    android:id="@+id/fragment"
+                    android:name="multi.android.matertial_design_pro.exam.Sales"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+         </LinearLayout>
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

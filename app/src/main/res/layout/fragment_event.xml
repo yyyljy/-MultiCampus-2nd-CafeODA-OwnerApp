@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/eventInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            >
+            <EditText
+                android:id="@+id/event_roadtextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Spinner
+                    android:id="@+id/eventSalesSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/event_array"
+                    android:layout_weight="1"
+                    />
+                <Button
+                    android:id="@+id/eventQueryBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="조회"
+                    android:layout_gravity=""
+                    />
+            </LinearLayout>
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/eventBarChart"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/event_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="조회 버튼을 눌러주세요."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/eventLineChart"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/event_textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/eventBarChartAge"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/event_textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/eventLineChart2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/event_textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

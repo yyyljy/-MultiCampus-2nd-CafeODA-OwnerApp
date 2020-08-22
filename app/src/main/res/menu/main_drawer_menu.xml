@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="주문현황" />
+    <item
+        android:id="@+id/item2"
+        android:title="주문기록"/>
+    <item
+        android:id="@+id/item3"
+        android:title="나의매장"/>
+    <item
+        android:id="@+id/item4"
+        android:title="메뉴관리"/>
+    <item
+        android:id="@+id/item5"
+        android:title="매출전표"/>
+    <item
+        android:id="@+id/item6"
+        android:title="매출통계"/>
+    <item
+        android:id="@+id/item7"
+        android:title="추천 이벤트"/>
+</menu>

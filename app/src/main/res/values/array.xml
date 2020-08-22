@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sales_array">
+        <item>시간대 별</item>
+        <item>일 별</item>
+        <item>요일 별</item>
+        <item>월 별</item>
+    </string-array>
+
+    <string-array name="statistic_array">
+        <item>시간대 별 평균 매출</item>
+        <item>일 별 평균 매출</item>
+        <item>요일 별 평균 매출</item>
+        <item>월 별 평균 매출</item>
+    </string-array>
+
+    <string-array name="event_array">
+        <item>날씨별 추천 이벤트</item>
+        <item>매출 기준 추천 이벤트</item>
+        <item>유동인구 기준 추천 이벤트</item>
+    </string-array>
+
+    <string-array name="coffee_country">
+        <item>없음</item>
+        <item>콜롬비아</item>
+        <item>케냐</item>
+        <item>에티오피아</item>
+        <item>인도네시아</item>
+        <item>과테말라</item>
+        <item>자메이카</item>
+        <item>브라질</item>
+
+
+    </string-array>
+
+    <string-array name="coffee_menu">
+        <item>아메리카노</item>
+        <item>카페라떼</item>
+        <item>바닐라라떼</item>
+        <item>카푸치노</item>
+        <item>카페모카</item>
+        <item>그린티</item>
+        <item>블랙티</item>
+        <item>캐모마일</item>
+        <item>레몬티</item>
+        <item>루이보스</item>
+        <item>그린티라떼</item>
+        <item>고구마라떼</item>
+        <item>초코라떼</item>
+        <item>레몬에이드</item>
+        <item>자몽에이드</item>
+        <item>자바칩스무디</item>
+        <item>딸기스무디</item>
+        <item>망고스무디</item>
+    </string-array>
+
+</resources>

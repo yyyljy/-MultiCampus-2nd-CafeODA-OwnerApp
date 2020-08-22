@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OwnerMain.OwnerMainPageActivity"
+    android:padding="20dp">
+
+
+
+    <TextView
+        android:id="@+id/cafename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_margin="25dp"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/jung"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+    <TextView
+        android:id="@+id/cafeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영업시간"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="평일 : "
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/bmjua_ttf"/>
+
+            <TextView
+                android:id="@+id/weekday_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/bmjua_ttf"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - "
+                android:textSize="20dp"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/weekday_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/bmjua_ttf"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주말 : "
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/bmjua_ttf"/>
+
+            <TextView
+                android:id="@+id/weekend_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - "
+                android:textSize="20dp"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/weekend_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textSize="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/bmjua_ttf"/>
+        <TextView
+            android:id="@+id/txt_cafetel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textSize="20dp"/>
+
+
+</LinearLayout>
